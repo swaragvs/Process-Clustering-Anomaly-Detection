@@ -2,6 +2,8 @@
 
 This Python script implements an advanced process resource monitoring and anomaly detection system using K-Means clustering and machine learning techniques. The system analyzes system processes based on their resource usage patterns and identifies potential anomalies.
 
+![3D PCA K-Means Clustering](Process-Clustering-Anomaly-Detection/OUTPUT%20SCREENSHOTS/3D%20PCA%20K%20MEANS%201.png)
+
 ## Features
 
 - **Resource Monitoring**: Tracks multiple system metrics including:
@@ -85,36 +87,53 @@ The script is organized into multiple cells, each handling a specific aspect of 
    - Initial validation
    - Schema verification
 
+   ![Initial Dataset](Process-Clustering-Anomaly-Detection/OUTPUT%20SCREENSHOTS/INITIAL%20DATASET.png)
+
 3. **Exploratory Data Analysis** (Cells 3-5)
    - Feature distributions
    - Correlation analysis
    - Temporal behavior analysis
+
+   ![Feature Distribution](Process-Clustering-Anomaly-Detection/OUTPUT%20SCREENSHOTS/FEATURE%20PATTERN%20DISTRUBUTION.png)
+   ![Correlation Analysis](Process-Clustering-Anomaly-Detection/OUTPUT%20SCREENSHOTS/Co-relation.png)
+   ![Temporal Analysis](Process-Clustering-Anomaly-Detection/OUTPUT%20SCREENSHOTS/Temporal.png)
 
 4. **Data Preprocessing** (Cells 6-7)
    - Missing value handling
    - Scaling
    - PCA transformation
 
+   ![Scale and PCA](Process-Clustering-Anomaly-Detection/OUTPUT%20SCREENSHOTS/Scale-PCA.png)
+
 5. **Model Development** (Cells 8-10)
    - K-Means model selection
    - Model training
    - Performance evaluation
+
+   ![Model Selection](Process-Clustering-Anomaly-Detection/OUTPUT%20SCREENSHOTS/MODEL-SELECTION-KMEANS-SIL.png)
 
 6. **Anomaly Detection** (Cell 11)
    - Hybrid approach implementation
    - Distance-based detection
    - Isolation Forest integration
 
+   ![Anomaly Detection](Process-Clustering-Anomaly-Detection/OUTPUT%20SCREENSHOTS/detection-anomaly.png)
+
 7. **Visualization** (Cells 12-14)
    - Interactive 3D cluster visualization
    - Inference overlay
    - Test case visualization
+
+   ![3D Cluster Visualization](Process-Clustering-Anomaly-Detection/OUTPUT%20SCREENSHOTS/3D%20PCA%20K%20MEANS%202.png)
+   ![Test Simulation](Process-Clustering-Anomaly-Detection/OUTPUT%20SCREENSHOTS/TEST-SIM.png)
 
 8. **Reporting** (Cells 15-17)
    - Data export
    - Summary metrics
    - Interpretive analysis
    - Anomaly intelligence report
+
+   ![Performance Scores](Process-Clustering-Anomaly-Detection/OUTPUT%20SCREENSHOTS/Scores.png)
 
 ## Output
 
@@ -141,6 +160,8 @@ The script evaluates clustering performance using multiple metrics:
 - Silhouette Score
 - Calinski-Harabasz Index
 - Davies-Bouldin Index
+
+![Model Performance Metrics](Process-Clustering-Anomaly-Detection/OUTPUT%20SCREENSHOTS/Model%20Selection.png)
 
 ## License
 
