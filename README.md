@@ -1,4 +1,4 @@
-# Process Resource Clustering with K-Means
+# Log Analysis & Anomaly Detection Using Machine Learning 
 
 This Python script implements an advanced process resource monitoring and anomaly detection system using K-Means clustering and machine learning techniques. The system analyzes system processes based on their resource usage patterns and identifies potential anomalies.
 
